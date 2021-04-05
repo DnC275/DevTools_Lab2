@@ -1,9 +1,9 @@
 def main():
-    x1 = int(input())
-    x2 = int(input())
+    a = int(input())
+    b = int(input())
     operation = input()
     if operation == '+':
-        print(x1 + x2)
+        print(a + b)
 
 if __name__ == '__main__':
     main()
