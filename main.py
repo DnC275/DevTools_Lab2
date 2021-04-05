@@ -6,6 +6,8 @@ def main():
         print(a + b)
     elif operation == '-':
         print(a - b)
+    elif operation == '*':
+        print(a * b)
 
 if __name__ == '__main__':
     main()
