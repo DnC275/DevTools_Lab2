@@ -14,7 +14,7 @@ def main():
         else:
             raise ValueError
     except ValueError:
-        print("Enter two integers, each on a new line, then enter the operation character on the next line('+', '-', '*', '/')")
+        print('Enter two integers, each on a new line, then enter the operation character on the next line('+', '-', '*', '/')')
 
 if __name__ == '__main__':
     main()
